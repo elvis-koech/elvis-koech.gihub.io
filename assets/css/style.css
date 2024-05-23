@@ -495,6 +495,17 @@ a.hoverline:hover {
   display: table-cell;
 }
 
+.exelient-logo{
+  margin: 0 auto;
+  height: 300px;
+  width: 50px;
+  max-height: 300px;
+  padding-bottom: 10px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
 .card.large .card-content p {
   color: inherit;
   margin: 0;
