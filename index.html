@@ -455,15 +455,16 @@
         <div class="row">
 
           <div class="col s12 m6 l4">
-            <div class="card medium">
+            <div class="card large">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="music streaming app" src="/assets/img/windmills.webp" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Wind stations location<i
+                <span class="card-title activator teal-text hoverline">Wind Power Plant Location Selection System<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  A full microservices archicture deployed on kubernetes.
+                  A system to identify optimal locations for wind power plants in Kenya using historical weather 
+                  data and geographical information, enhancing energy generation and sustainability.
                 </p>
               </div>
               <div class="card-reveal">
@@ -472,11 +473,12 @@
                 <span class="card-title grey-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li><b>Tools:</b> Spring Boot,Spring cloud, Mongo DB, Kubernetes</li>
-                  <li>Gateway Service that acts as a proxy/gateway </li>
-                  <li>Organization,Employee and Department Services allowing for CRUD operations</li>
-                  <li>Spring boot admin to monitor running microservices</li>
-                  <li>Mongo DB database to store data</li>
+                  <li><b>Tools:</b> Python, Tensorflow(LSTM), Prophet(time series analysis)</li>
+                
+                  <li>Developed a system to select optimal wind power plant locations based on weather conditions.</li>
+                  <li>Leveraged datasets from a Danish wind power plant and NASA's POWER data access viewer.</li>
+                  <li>Implemented predictive models (LSTM and Facebook Prophet) for time series analysis of wind speed.</li>
+                  <!-- <li>Mongo DB database to store data</li> -->
                   <!-- <li>Scroll through recently played/viewed songs.</li> -->
 
 
@@ -486,7 +488,7 @@
                     data-tooltip="View Online"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-external-link"></i></a> -->
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/Visels/Spring-Microservices-Kubernetes-Architecture"
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/elvis-kipchumba/Wind-Energy-Location-Selection-System"
                     target="_blank" data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
@@ -496,15 +498,16 @@
           </div>
 
           <div class="col s12 m6 l4">
-            <div class="card medium">
+            <div class="card large">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="quiz app" src="/assets/img/sustainability-dashboard.png" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Kenya Sustainability Progress Dashboard<i
+                <span class="card-title activator teal-text hoverline">Sustainability Progress Dashboard for Kenya<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  Jenkins pipeline using Terraform and Ansible to automate the provisioning and deployment of AWS infrastructure
+                  An interactive dashboard visualizing key environmental and sustainability indicators for Kenya using data from the World Bank API,
+                   built with Python, Dash, and Plotly.
                 </p>
               </div>
               <div class="card-reveal">
@@ -513,15 +516,15 @@
                 <span class="card-title grey-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li><b>Tools:</b> Jenkins, Ansible, Terraform & S3 bucket</li>
-                  <li>Jenkins pipeline to automate provisioning of AWS infrastructure</li>
-                  <li>Terraform to setup and provision the prod and dev infrastructure</li>
-                  <li>Ansible play book to setup s3 bucket in the infrastructure</li>
+                  <li><b>Tools:</b> Python, Pandas & Jupyter</li>
+                  <li>Developed an interactive dashboard to visualize Kenya's environmental and sustainability indicators.</li>
+                  <li>Integrated data fetching and preprocessing from the World Bank API.</li>
+                  <li>Visualized metrics such as CO2 emissions, forest area, access to electricity, and renewable energy consumption.</li>
 
                 </ul>
                 <div class="card-action">
                   
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/Visels/Jenkins-Terraform-Ansible-AWS"
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/elvis-kipchumba/Sustainability-Progress-Dashboard-Kenya"
                     target="_blank" data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
@@ -534,16 +537,17 @@
 
           <!-- Flask Project -->
           <div class="col s12 m6 l4">
-            <div class="card medium">
+            <div class="card large">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="Screenshot of web app" src="/assets/img/diesel-stations.jpg"
                 style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">CO2 Emissions Prediction Model<i
+                <span class="card-title activator teal-text hoverline">CO2 Emissions Forecasting for Electricity Generation<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  Terraform module to setup and configure DNS in route 53
+                  A study using an ARIMA model to forecast carbon dioxide emissions from electricity generation by petroleum, 
+                  leveraging time series data from the Energy Information Administration.
                 </p>
               </div>
               <div class="card-reveal">
@@ -552,12 +556,14 @@
                 <span class="card-title teal-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li><b>Tools:</b> Terraform, AWS Route 53</li>
-                  <li>Terraform script to setup aws route 53.</li>
-                  <li>Setup 4 nameserver records. </li>
+                  <li><b>Tools:</b>Python,ARIMA,Matplotlib</li>
+                  <li>Conducted a study to forecast carbon dioxide emissions from electricity generation using an ARIMA model.</li>
+                  <li>Focused on emissions from electricity generation by petroleum. </li>
+                  <li>Utilized time series data provided by the Energy Information Administration.</li>
+                  <li>Aimed to understand and predict emission trends to address global warming impacts. </li>
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/flask-blog"
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/elvis-kipchumba/Electricty-Stations-Timeseries-C02-Prediction"
                     target="_blank" data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
